@@ -1,0 +1,44 @@
+body
+{
+    background-image:linear-gradient(to right, hotpink ,yellow, rgba(178, 31, 236, 0.788)) ;
+     text-align: center;
+    margin-top: 25px;
+ }
+ .heading
+ {
+    font-size: 35px;
+    color:red;
+    text-shadow: 5px 5px 5px red;
+    font-family: 'Moon Dance', cursive;
+    letter-spacing:2.5 px ;
+    text-decoration: underline;
+   }
+   .heading:hover
+   {
+     transform: scale(1.5);
+   }
+   .travel
+   {
+    height:350px;
+    width: 500px;
+    margin: 12px;
+    border: 5px ridge white; 
+    box-shadow: 5px 5px 25px red;
+   }
+   .travel:hover 
+   {
+     transform:rotate(-20deg)
+   }
+   hr{
+     border-style: solid;
+     width:70%;
+     color: indigo;
+   }
+   .para
+   {
+    font-family: 'Dosis', sans-serif;
+    color:green;
+    padding: 20px ;
+    max-width : 500px;
+
+   }
